@@ -1,23 +1,37 @@
-*{
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #white;
+    font-family: Arial, sans-serif;
+}
+#title {
+    color: #6a0dad;
+    font-size: 35px;
+}
+.intro {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-color: #6a0dad;
+}
+.card.important {
+    border-color: #6a0dad;
+    background-color: #e6e6fa;
+}
+.card
+.skills {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
 
-color:red;
-}
-p{
-    color:blue
-} 
-
-div{
-    color:green;
-}
-#title{
-    color:yellow;
-}
-.subsection{
-    color:orange;
-}
-.box{
-    color: black;
-}
-body{
-    background-color:purple;
 }
