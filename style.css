@@ -1,0 +1,23 @@
+*{
+
+color:red;
+}
+p{
+    color:blue
+} 
+
+div{
+    color:green;
+}
+#title{
+    color:yellow;
+}
+.subsection{
+    color:orange;
+}
+.box{
+    color: black;
+}
+body{
+    background-color:purple;
+}
