@@ -1,0 +1,58 @@
+
+body {
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.card {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+h1 {
+    color: #880e4f;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+.text {
+    color: #4a148c;
+}
+
+
+.card p {
+    color: #ad1457;
+    font-size: 20px;
+}
+
+
+
+#special {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+
+.button {
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+.card p {
+    font-size: 22px;
+}

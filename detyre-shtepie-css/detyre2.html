@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Box-sizing demonstration</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 24px;
+    }
+
+    .box {
+      width: 200px;
+      padding: 30px;
+      border: 5px solid royalblue;
+      margin-bottom: 20px;
+      background: #eaf0ff;
+    }
+
+    .content-box {
+      box-sizing: content-box;
+    }
+
+    .border-box {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>Same width, different results</h1>
+
+  <div class="box content-box">
+    content-box: 250px overall
+  </div>
+
+  <div class="box border-box">
+    border-box: 200px overall
+  </div>
+</body>
+</html>

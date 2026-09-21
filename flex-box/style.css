@@ -1,0 +1,21 @@
+.flex-container{
+   display:flex;
+}
+.flex-container div{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    flex: 1 1 auto;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; */
+width: 250px;
+
+}
+.flex-container .class2{
+    flex-shrink: 0;
+}
+/* Zmadhon vetëm recetën e parë (Lasagna) duke i dhënë dyfishin e hapësirës */
+.recipes-container .recipe-card:first-child {
+    flex: 2;
+}
